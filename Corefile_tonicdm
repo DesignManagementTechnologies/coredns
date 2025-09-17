@@ -1,0 +1,12 @@
+.:1053 {
+    cidrfilter {
+        primary 172.31.0.2
+        secondary 10.10.128.2
+        allowed 10.0.0.0/8
+        allowed 172.16.0.0/12
+        allowed 192.168.0.0/16
+    }
+    log
+    errors
+}
+
